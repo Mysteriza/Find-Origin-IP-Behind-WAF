@@ -98,12 +98,12 @@ These methods must be used ethically and only on systems you have permission to 
 ## Method 10: Using VirusTotal
 1. Use the following command in a terminal:
    ```bash
-   curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=<DOMAIN>&apikey=<api_key>" | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}'
+   curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=<DOMAIN>&apikey=982680b1787fa59701919aa22515a025e00df1e3bb2bc4f186b8e919558d576c" | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}'
    ```
    Replace `<DOMAIN>` with the target website URL (without brackets).
 2. Filter results using:
    ```bash
-   curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=<DOMAIN>&apikey=<api_key>" | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | httpx-toolkit -sc -td -title -server
+   curl -s "https://www.virustotal.com/vtapi/v2/domain/report?domain=<DOMAIN>&apikey=982680b1787fa59701919aa22515a025e00df1e3bb2bc4f186b8e919558d576c" | jq -r '.. | .ip_address? // empty' | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}' | httpx-toolkit -sc -td -title -server
    ```
 3. Check all active IPs to identify the original IP.
 - Verify no WAF is detected using:
