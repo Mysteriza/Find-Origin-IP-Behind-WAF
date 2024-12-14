@@ -6,6 +6,16 @@ This guide provides various methods to discover the original IP address of a web
 - And his website: [LostSec | Coffinxp](https://lostsec.xyz/)
 - Github: [coffinxp](https://github.com/coffinxp)
 
+# What is this for?
+
+This guide is designed to assist penetration testers and cybersecurity professionals in identifying the original IP address of a website protected by a WAF. With the original IP address, testers can:
+
+- Conduct direct vulnerability assessments on the server without WAF interference.
+- Map the network to better understand the target's infrastructure.
+- Detect any misconfigurations or policy errors on the main server.
+
+These methods must be used ethically and only on systems you have permission to test.
+
 ## Method 1: Using dnsrecon
 - **Command**:
   ```bash
