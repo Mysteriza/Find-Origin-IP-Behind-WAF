@@ -27,7 +27,8 @@ These methods must be used ethically and only on systems you have permission to 
   - **wafw00f tool**.
 
 ## Method 2: Using Shodan Dork
-- **Query**:
+- Login to [shodan.io](https://www.shodan.io)
+- **Query**
   ```
   ssl.cert.subject.CN:'example.com' 200
   ```
@@ -39,8 +40,8 @@ These methods must be used ethically and only on systems you have permission to 
 ## Method 3: Using Favicon Finder
 1. Visit [favicons.teamtailor-cdn.com](https://favicons.teamtailor-cdn.com).
 2. Input the target website URL to locate its `favicon.ico`.
-3. Verify if the favicon link redirects to the target website.
-4. Generate a hash of the favicon using [favicon-hash.kmsec.uk](https://favicon-hash.kmsec.uk).
+3. Verify if the favicon link redirects to the target website. Then copy the URL.
+4. Paste the URL to [favicon-hash.kmsec.uk](https://favicon-hash.kmsec.uk) to generate a hash of the favicon.
 5. Use the "Search Sensys" link to find possible original IPs.
 6. Check results one by one.
 - Verify no WAF is detected using:
