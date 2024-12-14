@@ -24,7 +24,7 @@ These methods must be used ethically and only on systems you have permission to 
 - Check if the original IP of the target website is revealed.
 - Verify no WAF is detected on the identified IP using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ## Method 2: Using Shodan Dork
 - Login to [shodan.io](https://www.shodan.io)
@@ -35,7 +35,7 @@ These methods must be used ethically and only on systems you have permission to 
 - Inspect results for possible original IPs pointing to the website without errors.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ## Method 3: Using Favicon Finder
 1. Visit [favicons.teamtailor-cdn.com](https://favicons.teamtailor-cdn.com).
@@ -46,7 +46,7 @@ These methods must be used ethically and only on systems you have permission to 
 6. Check results one by one.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ## Method 4: Using IP History
 1. Visit [viewdns.info](https://viewdns.info/).
@@ -54,7 +54,7 @@ These methods must be used ethically and only on systems you have permission to 
 3. Examine the IP history for potential original IPs.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ## Method 5: Using SPF Record
 1. Visit [mxtoolbox.com](https://mxtoolbox.com/).
@@ -62,7 +62,7 @@ These methods must be used ethically and only on systems you have permission to 
 3. Inspect the results for any original IPs.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ## Method 6: Using SecurityTrails
 1. Visit [securitytrails.com](https://securitytrails.com/).
@@ -70,7 +70,7 @@ These methods must be used ethically and only on systems you have permission to 
 3. Identify any potential original IPs.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f).
 
 ## Method 7: Using Censys
 1. Visit [search.censys.io](https://search.censys.io/).
@@ -78,7 +78,7 @@ These methods must be used ethically and only on systems you have permission to 
 3. Check for potential original IPs.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ## Method 8: Using Fofa
 1. Visit [fofa.info](https://en.fofa.info/).
@@ -86,7 +86,7 @@ These methods must be used ethically and only on systems you have permission to 
 3. Examine the results for possible original IPs.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ## Method 9: Using ZoomEye
 1. Visit [zoomeye.hk](https://www.zoomeye.hk/).
@@ -94,7 +94,7 @@ These methods must be used ethically and only on systems you have permission to 
 3. Check for potential original IPs.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ## Method 10: Using VirusTotal
 1. Use the following command in a terminal:
@@ -109,7 +109,7 @@ These methods must be used ethically and only on systems you have permission to 
 3. Check all active IPs to identify the original IP.
 - Verify no WAF is detected using:
   - **Wappalyzer extension**.
-  - **wafw00f tool**.
+  - [**wafw00f**](https://github.com/EnableSecurity/wafw00f)
 
 ---
 
