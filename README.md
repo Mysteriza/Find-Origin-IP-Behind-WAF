@@ -16,6 +16,10 @@ This guide is designed to assist penetration testers and cybersecurity professio
 
 These methods must be used ethically and only on systems you have permission to test.
 
+## Method 0: Using automatic tool
+- Clone and use this tool: [Origin-IP-Finder](https://github.com/Mysteriza/originip).
+- The originip tool helps in finding the origin IP using various services such as dig, censys (optional), securitytrails, viewdns, hunter.how, fofa, and zoomeye.
+  
 ## Method 1: Using dnsrecon
 - **Command**:
   ```bash
